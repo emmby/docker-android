@@ -26,7 +26,7 @@ RUN yum -y install libXrender.i686
 RUN cd /usr/local/ && curl -L -O http://dl.google.com/android/android-sdk_r24.0.2-linux.tgz && tar xf android-sdk_r24.0.2-linux.tgz
 
 # Install Android tools
-RUN echo y | /usr/local/android-sdk-linux/tools/android update sdk --filter 'android-21,android-19,android-18,android-17,android-16,build-tools-21.1.2,tool,platform-tool,extra' --no-ui --force -a
+RUN echo y | /usr/local/android-sdk-linux/tools/android update sdk --filter 'android-21,build-tools-21.1.2,tool,platform-tool,extra' --no-ui --force -a
 
 # Install Gradle
 RUN cd /usr/local/ && curl -L -O http://services.gradle.org/distributions/gradle-2.2.1-all.zip && unzip -o gradle-2.2.1-all.zip
