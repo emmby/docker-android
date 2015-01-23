@@ -3,6 +3,7 @@
 A handy little Dockerfile for Android Build Tools 24.0.2 and Android SDK 21.
 
 Installs:
+
 * Android SDK Platform-tools, revision 21
 * Android SDK Build-tools, revision 21.1.2
 * Android SDK Tools, revision 24.0.2
