@@ -1,6 +1,6 @@
 # docker-android
 
-A handy little Dockerfile for Android Build Tools 24.0.2 and Android SDK 21.
+A handy little Dockerfile for building Android apps.
 
 Installs:
 
@@ -15,4 +15,6 @@ Installs:
 * Android Extras
 
 You can download and use the container here: https://registry.hub.docker.com/u/emmby/docker-android/
+
+Source for the dockerfile is available here: https://github.com/emmby/docker-android
 
